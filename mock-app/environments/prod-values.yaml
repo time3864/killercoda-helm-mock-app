@@ -2,3 +2,5 @@ environment: prod
 replicas: 2
 image:
   tag: v2.3.0
+hpa:
+  enabled: true
