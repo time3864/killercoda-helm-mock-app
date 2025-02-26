@@ -5,4 +5,6 @@ metadata:
   labels:
     app: {{ .Values.appName }}
 data:
-  MESSAGE: {{ .Values.message }}
+  APP_NAME: {{ .Values.appName }}
+  ENVIRONMENT: {{ .Values.environment }}
+  VERSION: {{ .Values.image.tag }}
